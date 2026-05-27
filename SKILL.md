@@ -102,10 +102,8 @@ description: Extract course transcript data from PDF/image sources and output st
 
 **解决方案**：
 - 方案 A：用 Excel/WPS 打开生成的文件，另存为新文件
-- 方案 B：创建一个空 Excel，手动粘贴数据（这是用户最终成功的方案）
+- 方案 B：创建一个空 Excel，手动粘贴数据后保存
 - 方案 C：用在线 Excel 工具打开后重新下载
-
-**参考文件**：`/Users/easonlv/Desktop/香港高才/大学成绩单_final.xlsx` 是通过方案 B 提交成功的。
 
 ### 2. 课程归类错误
 
@@ -135,12 +133,6 @@ description: Extract course transcript data from PDF/image sources and output st
 - [ ] 课程类别与原文一致
 - [ ] 文件为 .xlsx 格式，Sheet 名为"分学期"
 - [ ] 用 Excel/WPS 能正常打开
-
-## 参考文件
-
-- **成功提交的文件**：`/Users/easonlv/Desktop/香港高才/大学成绩单_final.xlsx`（Sheet: 分学期, 65 条课程记录, 66 行含 header）
-- **被拒的文件示例**：`/Users/easonlv/Desktop/香港高才/不准.xlsx`（同样的数据但格式校验未通过）
-- **原始成绩单 PDF**：`/Users/easonlv/Desktop/香港高才/中文主修成绩单_12330227_2026-05-25.pdf`
 
 ## 工作流程总结
 
